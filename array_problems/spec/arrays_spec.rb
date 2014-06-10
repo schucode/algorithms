@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'rspec'
-require 'pry-debugger'
+#require 'pry-debugger'
 require_relative '../arrays.rb'
 
 describe "ArrayUtil" do
@@ -35,6 +35,8 @@ describe "ArrayUtil" do
       expect(ArrayUtil.max([-1, -5, -10, -2])).to eq(-1)
     end
   end
+
+
 
   describe ".middle_element" do
     it "should return nil for an empty array" do
